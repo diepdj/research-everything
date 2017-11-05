@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+    #<site-control permitted-cross-domain-policies="master-only"/>
+    <site-control permitted-cross-domain-policies="all"/>
+    <allow-access-from domain="*.binhluan.tv" to-ports="80,8000,443" secure="false"/>
+    <allow-access-from domain="www.binhluan.tv" to-ports="8000,443" secure="false"/>
+    <allow-http-request-headers-from domain="*.adobe.com" headers="SOAPAction"/>
+</cross-domain-policy>
